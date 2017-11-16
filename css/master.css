@@ -1,0 +1,123 @@
+h2 {
+  margin-top: 0;
+}
+
+body {
+  color: #7a8b8e;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #4a5658;
+}
+h1 {
+  float: left;
+}
+.card-bottom img {
+  float: right;
+}
+
+.card-bottom button {
+  padding: 8px;
+  border: 2px lightgrey solid;
+  border-radius: 19px;
+  font-weight: bold;
+  font-size: 14px;
+  color:  #7a8b8e;
+}
+.wrap {
+  background-color: #edeff0;
+  padding: 0 25px;
+  overflow: auto;
+}
+
+
+
+.navbar {
+    overflow: auto;
+}
+
+.card-header img {
+    height: 25px;
+    float: left;
+}
+
+span.time {
+    float: right;
+    color: white;
+    /* margin-right: 25px; */
+}
+
+.card-header {
+    overflow: auto;
+}
+
+.greenbg {
+    background: #259775;
+}
+
+.pinkbg {
+  background: #f291b0;
+}
+
+.card-bottom button.pinktext {
+  color: #f291b0;
+}
+
+.indigobg {
+  background: #828ac9;
+}
+
+.card-bottom button.indigo-text {
+  color: #828ac9;
+}
+
+.card-bottom button.green-text {
+  color: #259775;
+}
+
+
+.card-header {
+    padding: 18px 25px;
+}
+
+.course-card {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 25px;
+    width: 45%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+
+.card-bottom {
+    padding: 25px;
+}
+
+
+.course-card:nth-child(2n+2) {
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.navbar .navbuttons{
+  float: right;
+  padding-top: 17px;
+  position:relative;
+}
+
+.navbuttons:before {
+    content: '197';
+    position: absolute;
+    right: 109%;
+    top: 29px;
+}
